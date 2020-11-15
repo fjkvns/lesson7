@@ -1,0 +1,79 @@
+div {
+    border: 1px solid red;
+}
+
+header {
+    background: rgb(0, 0, 129);
+    height: 100px;
+    color: whitesmoke;
+}
+
+.header_topline span, .rozetka span {
+    margin-left: 60px;
+}
+
+
+.rozetka, .dropdown {
+    float: left;
+}
+
+.dropdown {
+    margin-left: 10%;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropbtn {
+    width: 200px;
+    height: 60px;
+    background: rgb(0, 0, 129);
+    color: white;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.inputer {
+    background: white;
+    width: 550px;
+    height: 25px;
+    margin-left: 40%;
+}
+
+.header_med {
+    height: 77px;
+}
+
+.rozetka {
+    vertical-align: baseline;
+    text-align: center;
+    height: 77px;
+    width: 180px;
+}
+
+.list {
+    width: 100px;
+    padding: 5px;
+}
+
+.content {
+    height: 500px;
+    width: 79%;
+}
+
+.content, .list {
+   display: inline-block;
+}
